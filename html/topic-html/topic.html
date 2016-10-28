@@ -1,0 +1,263 @@
+<!doctype html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>食尚坊-话题</title>
+    <link rel="stylesheet" href="http://cdn.bootcss.com/bootstrap/3.3.0/css/bootstrap.min.css">
+    <script src="http://cdn.bootcss.com/jquery/1.11.1/jquery.min.js"></script>
+    <script src="http://cdn.bootcss.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
+    <!--<link rel="stylesheet" type="text/css" href="../../css/topic-css/bootstrap.css">-->
+    <link rel="stylesheet" type="text/css" href="../../css/topic-css/style.css">
+    <script type="text/javascript" src="../../js/topic-js/topic.js"></script>
+    <link rel="stylesheet" href="../../css/foods_css/footer.css">
+    <link rel="icon" href="../../images/health_images/logo2.jpg">
+</head>
+<body>
+<!-- header -->
+<nav class="navbar navbar-default navbar-inverse " role="navigation">
+    <div class="container-fluid">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+                    data-target="#bs-example-navbar-collapse-1">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#"><strong>食尚坊</strong></a>
+        </div>
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav">
+                <li class="dropdown ">
+                    <a href="../../index.html">首页 </a>
+                </li>
+                <li class="dropdown ">
+                    <a href="../menu_html/menu.html">菜谱 </a>
+                </li>
+                <li class="dropdown">
+                    <a href="../../html/foods_html/table.html">食材</a>
+                </li>
+                <li class="dropdown ">
+                    <a href="../../html/health_html/health.html">健康</a>
+                </li>
+                <li class="dropdown active">
+                    <a href="../../html/topic-html/topic.html">话题</a>
+                </li>
+                <li class="dropdown ">
+                    <a href="../my-concern_html/my-concern.html">我关注的</a>
+                </li>
+                <li class="dropdown ">
+                    <a href="../../html/personPage_html/personPage.html">个人中心</a>
+                </li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="#"><span class="glyphicon glyphicon-log-in">注册</span></a>
+                <li><a href="#"><span class="glyphicon glyphicon-user">登录</span></a>
+            </ul>
+        </div>
+    </div>
+</nav>
+<!-- container -->
+<div class="container clear">
+    <div class="w">
+        <div class="main_left">
+            <div class="main_header">
+                <!-- 需要添加js控制class on -->
+                <div class="main_title">
+                    <span class="on left">话题</span>
+                    <a class="right " href="#">精华</a>
+                    <a class="right " href="#">热门</a>
+                    <a class="right " href="#">最新</a>
+                    <a class="right on" href="#">全部</a>
+                </div>
+                <hr style="height:1px;border:none;border-top:1px solid #ccc;"/>
+            </div>
+            <!-- 需要添加js/ajax控制列表中的内容 并控制5个li时放到下一页-->
+            <div class="main_list " id="main_list">
+                <ul class="list-group">
+                    <li class="list-group-item">
+                        <div class="c">
+                            <a href="#" title="泉水妖">
+                                <img width="40" height="40" src="../../images/topic-img/1.jpg">
+                            </a>
+                            <div>
+                                <a title="泉水妖">泉水妖</a><br/>
+                                <span>2016-10-8</span>
+                            </div>
+                        </div>
+                        <div class="clear">
+                            <div>
+                                <span><i>顶</i> <i>精</i></span>
+                                <a href=""><strong>生活大爆料！晒晒你身边的趣人趣事</strong><br>为了让美天这个大家庭更加活泼、更加有趣，除了日常发布美食类话......</a>
+                            </div>
+                            <!-- 读取数据库中图片 -->
+                            <div class="c">
+                                <!-- 添加js显示喜欢图标 + 划过改变心形-->
+                                <div class="">
+                                    <img class="img" width="100" height="100" src="../../images/topic-img/2.jpeg">
+                                    <img class="img" width="100" height="100" src="../../images/topic-img/2.jpeg">
+                                    <img class="img" width="100" height="100" src="../../images/topic-img/2.jpeg">
+                                    <img class="img" width="100" height="100" src="../../images/topic-img/2.jpeg">
+                                    <img id="imgh" width="40" height="40" src="../../images/topic-img/4.jpg">
+                                    <div class="comments">
+                                        <p><span>20</span>个喜欢,<span>60</span>条评论</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="list-group-item clear">
+                        <div class="c">
+                            <a href="#" title="泉水妖">
+                                <img width="40" height="40" src="../../images/topic-img/1.jpg">
+                            </a>
+                            <div>
+                                <a title="泉水妖">泉水妖</a><br/>
+                                <span>2016-10-8</span>
+                            </div>
+                        </div>
+                        <div class="c clear">
+                            <div class="pp">
+                                <span><i>顶</i> <i>精</i></span>
+                                <a href=""><strong>生活大爆料！晒晒你身边的趣人趣事</strong><br>为了让美天这个大家庭更加活泼、更加有趣，除了日常发布美食类话......</a>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="list-group-item">
+                        <div class="c">
+                            <a href="#" title="泉水妖">
+                                <img width="40" height="40" src="../../images/topic-img/1.jpg">
+                            </a>
+                            <div>
+                                <a title="泉水妖">泉水妖</a><br/>
+                                <span>2016-10-8</span>
+                            </div>
+                        </div>
+                        <div class="c clear">
+                            <div class="pp">
+                                <span><i>顶</i> <i>精</i></span>
+                                <a href=""><strong>生活大爆料！晒晒你身边的趣人趣事</strong><br>为了让美天这个大家庭更加活泼、更加有趣，除了日常发布美食类话......</a>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="list-group-item">
+                        <div class="c">
+                            <a href="#" title="泉水妖">
+                                <img width="40" height="40" src="../../images/topic-img/1.jpg">
+                            </a>
+                            <div>
+                                <a title="泉水妖">泉水妖</a><br/>
+                                <span>2016-10-8</span>
+                            </div>
+                        </div>
+                        <div class="c clear">
+                            <div class="pp">
+                                <span><i>顶</i> <i>精</i></span>
+                                <a href=""><strong>生活大爆料！晒晒你身边的趣人趣事</strong><br>为了让美天这个大家庭更加活泼、更加有趣，除了日常发布美食类话......</a>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="list-group-item">
+                        <div class="c">
+                            <a href="#" title="泉水妖">
+                                <img width="40" height="40" src="../../images/topic-img/1.jpg">
+                            </a>
+                            <div>
+                                <a title="泉水妖">泉水妖</a><br/>
+                                <span>2016-10-8</span>
+                            </div>
+                        </div>
+                        <div class="c clear">
+                            <div class="pp">
+                                <span><i>顶</i> <i>精</i></span>
+                                <a href=""><strong>生活大爆料！晒晒你身边的趣人趣事</strong><br>为了让美天这个大家庭更加活泼、更加有趣，除了日常发布美食类话......</a>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <!-- 需要添加js控制class open -->
+            <div class="btn-group">
+                <div class="">
+                    <a href="#" class="btn btn-default open">1</a>
+                    <a href="#" class="btn btn-default">2</a>
+                    <a href="#" class="btn btn-default">3</a>
+                    <a href="#" class="btn btn-default">4</a>
+                    <a href="#" class="btn btn-default">5</a>
+                    <a href="#" class="btn btn-default">...</a>
+                    <a href="#">下一页</a>
+                </div>
+            </div>
+        </div>
+        <div class="main_right">
+            <a class="main_right_add" href="#">发布话题</a>
+            <!-- 轮播图 -->
+            <div class="main_right_content">
+                <ul class="" id="slider">
+                    <li style="display: block;">
+                        <img src="../../images/topic-img/1.jpg" alt="">
+                    </li>
+                    <li style="display: none;">
+                        <img src="../../images/topic-img/4.jpg" alt="">
+                    </li>
+                    <li style="display: none;">
+                        <img src="../../images/topic-img/5.jpg" alt="">
+                    </li>
+                    <li style="display: none;">
+                        <img src="../../images/topic-img/2.jpeg" alt="">
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- footer -->
+<!--<div class="footer clear" class="">-->
+    <!--<hr style="height:1px;border:none;border-top:1px solid #ccc;"/>-->
+    <!--<div class="w">-->
+        <!--<div class="left">-->
+            <!--<p><span class="orange">美食天下 - 让吃更美好！</span></p>-->
+            <!--<p>Copyright ©2008 [Westin.com] Powered By [Westin Cuisine] Version 1.0.0 </p>-->
+        <!--</div>-->
+        <!--<div class="right">-->
+            <!--<img src="../../images/topic-img/weixin.png" alt="微信二维码"><br/>-->
+            <!--<p style="text-align: center;">微信公众号</p>-->
+        <!--</div>-->
+    <!--</div>-->
+<!--</div>-->
+<br/>
+<br/>
+<br/>
+<br/>
+<div class="row-2">
+    <div class="row">
+        <div class="col-md-2 col-md-offset-1">
+            <h3>PRODUCE</h3>
+            <p>Business</p>
+            <p>Compare</p>
+            <p>Mobile</p>
+            <p>Download</p>
+        </div>
+        <div class="col-md-2 col-md-offset-1">
+            <h3>COMPANY</h3>
+            <p>About Us</p>
+            <p>Blog</p>
+            <p>News</p>
+            <p>Contact Us</p>
+        </div>
+        <div class="col-md-2 col-md-offset-1">
+            <h3>LEARN MORE</h3>
+            <p>Support</p>
+            <p>Developer</p>
+        </div>
+    </div>
+    <hr/>
+    <h5 align="center">@ &nbsp;食尚网 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2016 - 10 - 24</h5>
+</div>
+<script type="text/javascript">
+    window.onload = function () {
+        slider();
+    }
+</script>
+</body>
+</html>

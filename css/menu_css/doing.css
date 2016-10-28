@@ -1,0 +1,121 @@
+.logo{
+    width: 60px;
+    height: 50px;
+    border-radius: 10%;
+}
+.name {
+    margin-top: 30px;
+    margin-left: 10%;
+    margin-bottom: 15px;
+}
+
+.head{
+    margin-left: 5px !important;
+    font-size: 300%;
+}
+
+.step img{
+    height: 250px;
+    width: 200px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    float: left !important;
+}
+
+.step_word{
+    margin-left: 100px;
+    margin-top: 30px;
+}
+
+.step_num{
+    margin-bottom: 50px;
+    font-size: 20px;
+    color: #0b97c4;
+    font-weight: bold;
+}
+
+.information{
+    margin-top: 40px;
+}
+
+.information_img{
+    margin-top: 50px;
+}
+
+.information_img img{
+    height: 500px;
+    width: 700px;
+    border-radius: 10%;
+}
+
+.right{
+    margin-top: 140px;
+    margin-left: 95px;
+}
+
+.right img{
+    height: 200px;
+    width: 250px;
+}
+
+.right_title{
+    margin-top: 40px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.mo{
+    margin-bottom: 100px;
+}
+
+ul li{
+    list-style:none;
+    margin-bottom: 10px;
+}
+
+.right_title{
+    margin-bottom: 20px;
+}
+
+.right_title a{
+    color: salmon !important;
+}
+
+.right_img_thing{
+    margin-bottom: 100px;
+}
+
+.right_img_thing_says{
+    margin-top: 20px;
+    text-align: center;
+    font-weight: bold;
+    color: #1b6d85;
+    font-size: 20px;
+}
+
+a link{
+    text-decoration:none;
+}
+
+a:hover {
+    color: palevioletred;
+    text-decoration:none;
+}
+
+.like{
+    margin-top: 50px !important;
+    color: #73ffe4;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.headImage img{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+
+.comment_says{
+    margin-top: 40px;
+    margin-bottom: 10px;
+}

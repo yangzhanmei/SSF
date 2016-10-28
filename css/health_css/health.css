@@ -1,0 +1,157 @@
+#carousel-example-generic{
+    margin-top: 20px;
+    margin-left: 10%;
+    margin-right: 10%;
+    height: 240px;
+}
+
+.name {
+    margin-top: 30px;
+    margin-left: 10%;
+    margin-bottom: 15px;
+}
+
+
+.head{
+    margin-left: 5px !important;
+    font-size: 300%;
+}
+
+.pic1 {
+    height:240px;
+    width: 270px;
+    float: left;
+}
+
+.pic2{
+    height:240px;
+    width: 270px;
+    float: none;
+    margin-left: 10%;
+}
+
+.pic3{
+    height:240px;
+    width: 270px;
+    float: right;
+}
+img:hover{
+    -webkit-transform: scale(1.2 );
+    -webkit-transition: 1s;
+}
+
+.contentText{
+    position: absolute;
+    margin-left: 10%;
+    margin-top: 60%;
+    color: white;
+    font-size: 140%;
+}
+
+.pics{
+    width:170px;
+    height: 130px;
+    margin-top: 25px;
+}
+
+.details{
+    margin-top: 10px;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.introduction{
+    margin-top: 25px;
+}
+
+.title{
+    font-size: 170%;
+    margin-left: 50px;
+}
+
+.content{
+    font-size: 110%;
+    margin-top: 10px;
+    margin-left: 50px;
+}
+
+.options{
+    font-size: 130% ;
+}
+
+a:visited{
+    color: black;
+}
+
+a:link{
+    color: black
+}
+
+
+a:active{
+    color: palevioletred ;
+}
+
+a:hover{
+    color: palevioletred ;
+}
+
+.popular{
+    float: right;
+    margin-top: 200px;
+    position: absolute;
+    margin-left: 70%;
+}
+
+.week{
+    height: 80px;
+    width: 100px;
+    margin-top: 10px;
+}
+
+.weekInfo{
+    font-size: 120%;
+    margin-left: 120px;
+    margin-top: 40px;
+    position: absolute;
+    color:black;
+}
+
+.size{
+    padding: 0 15px;
+}
+
+#size{
+    margin-left: 10%;
+    margin-right: 30px;
+    width: 1000px;
+    height: 150px;
+}
+
+.detailsContent{
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.img1{
+    margin-top: 25px;
+    margin-left: 170px;
+    margin-right: 150px;
+    width: 300px;
+    height: 250px;
+}
+
+.popular2{
+    position: absolute;
+    margin-left: 800px;
+    margin-top: 100px;
+}
+
+.tag{
+    margin-top: 20px;
+    margin-left: 130px;
+}
+
+p{
+    margin-top: 20px;
+}

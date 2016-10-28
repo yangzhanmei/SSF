@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>食尚坊-菜谱</title>
+    <link rel="stylesheet" href="http://cdn.static.runoob.com/libs/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="http://cdn.static.runoob.com/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script src="http://cdn.static.runoob.com/libs/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="../../js/menu/move-top.js"></script>
+    <script type="text/javascript" src="../../js/menu/easing.js"></script>
+    <link rel="stylesheet" href="../../css/foods_css/footer.css">
+    <link rel="icon" href="../../images/health_images/logo2.jpg">
+    <script type="text/javascript">
+        jQuery(document).ready(function ($) {
+            $(".scroll").click(function (event) {
+                event.preventDefault();
+                $('html,body').animate({scrollTop: $(this.hash).offset().top}, 1200);
+            });
+        });
+    </script>
+    <link href="../../css/menu_css/menu.css" rel="stylesheet" type="text/css"/>
+</head>
+<body>
+<nav class="navbar navbar-default navbar-inverse " role="navigation">
+    <div class="container-fluid">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+                    data-target="#bs-example-navbar-collapse-1">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#"><strong>食尚坊</strong></a>
+        </div>
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav">
+                <li class="dropdown ">
+                    <a href="../../index.html">首页 </a>
+                </li>
+                <li class="dropdown active">
+                    <a href="./menu.html">菜谱 </a>
+                </li>
+                <li class="dropdown">
+                    <a href="../../html/foods_html/table.html">食材</a>
+                </li>
+                <li class="dropdown ">
+                    <a href="../../html/health_html/health.html">健康</a>
+                </li>
+                <li class="dropdown ">
+                    <a href="../../html/topic-html/topic.html">话题</a>
+                </li>
+                <li class="dropdown ">
+                    <a href="../my-concern_html/my-concern.html">我关注的</a>
+                </li>
+                <li class="dropdown ">
+                    <a href="../../html/personPage_html/personPage.html">个人中心</a>
+                </li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="#">注册</a>
+                <li><a href="#">登录</a>
+            </ul>
+        </div>
+    </div>
+</nav>
+<div class="name col-lg-10">
+    <div class="col-sm-1">
+        <img class="logo" src="../../images/menu/logo.jpg"/>
+    </div>
+    <div class="col-sm-3 head"><strong>食尚坊</strong></div>
+    <div class="col-sm-offset-7">
+        <div class="col-sm-8">
+            <input type="text" class="form-control"/>
+        </div>
+        <span><button class="btn btn-info">搜索</button></span>
+    </div>
+</div>
+<div class="container">
+    <div>
+        <div class="wrap">
+            <div class="gallery-cursual">
+                <link href="../../css/menu_css/owl.carousel.css" rel="stylesheet">
+                <script src="../../js/menu/owl.carousel.js"></script>
+                <script>
+                    $(document).ready(function () {
+                        $("#owl-demo").owlCarousel({
+                            items: 4,
+                            lazyLoad: true,
+                            autoPlay: true,
+                            pagination: false,
+                        });
+                    });
+                </script>
+                <div id="owl-demo" class="owl-carousel text-center">
+                    <div class="item">
+                        <img class="lazyOwl" data-src="../../images/menu/b1.jpg" alt="name">
+                    </div>
+                    <div class="item">
+                        <img class="lazyOwl" data-src="../../images/menu/b2.jpg" alt="name">
+                    </div>
+                    <div class="item">
+                        <img class="lazyOwl" data-src="../../images/menu/b3.jpg" alt="name">
+                    </div>
+                    <div class="item">
+                        <img class="lazyOwl" data-src="../../images/menu/b4.jpg" alt="name">
+                    </div>
+                    <div class="item">
+                        <img class="lazyOwl" data-src="../../images/menu/b5.jpg" alt="name">
+                    </div>
+                    <div class="item">
+                        <img class="lazyOwl" data-src="../../images/menu/b6.jpg" alt="name">
+                    </div>
+                    <div class="item">
+                        <img class="lazyOwl" data-src="../../images/menu/b7.jpg" alt="name">
+                    </div>
+                    <div class="item">
+                        <img class="lazyOwl" data-src="../../images/menu/b1.jpg" alt="name">
+                    </div>
+                    <div class="item">
+                        <img class="lazyOwl" data-src="../../images/menu/b2.jpg" alt="name">
+                    </div>
+                    <div class="item">
+                        <img class="lazyOwl" data-src="../../images/menu/b3.jpg" alt="name">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="center" align="center">
+            <ul class="col-lg-12">
+                <li class="active col-sm-1"><a href="#">首页</a></li>
+                <li class="col-sm-1"><a href="#">热菜</a></li>
+                <li class="col-sm-1"><a href="#">凉菜</a></li>
+                <li class="col-sm-1"><a href="#">汤羹</a></li>
+                <li class="col-sm-1"><a href="#">主食</a></li>
+                <li class="col-sm-1"><a href="#">小吃</a></li>
+                <li class="col-sm-1"><a href="#">西餐</a></li>
+                <li class="col-sm-1"><a href="#">烘培</a></li>
+                <li class="col-sm-1"><a href="#">零食</a></li>
+                <li class="col-sm-1"><a href="#">饮品</a></li>
+                <li class="col-sm-1"><a href="#">自制</a></li>
+            </ul>
+        </div>
+        <div class="col-lg-12" style="margin-top: 50px; margin-left: 30px">
+            <div class="information">
+                <div class="show">
+                    <img src="../../images/menu/1.jpg">
+                </div>
+                <div>
+                    <a href="./doing.html" class="col-lg-8"><h4>韩式南瓜粥</h4></a>
+                    <span class="glyphicon glyphicon-thumbs-up col-lg-1"></span>
+                    <span class="glyphicon col-lg-1">12</span>
+                </div>
+            </div>
+            <div class="information">
+                <div class="show">
+                    <img src="../../images/menu/2.jpg">
+                </div>
+                <div align="center">
+                    <a href="#" class="col-lg-8"><h4>酥皮豆沙花饼</h4></a>
+                    <span class="glyphicon glyphicon-thumbs-up col-lg-1"></span>
+                    <span class="glyphicon col-lg-1">12</span>
+                </div>
+            </div>
+            <div class="information">
+                <div class="show">
+                    <img src="../../images/menu/3.jpg">
+                </div>
+                <div align="center">
+                    <a href="#" class="col-lg-8"><h4>肉肉厨</h4></a>
+                    <span class="glyphicon glyphicon-thumbs-up col-lg-1"></span>
+                    <span class="glyphicon col-lg-1">12</span>
+                </div>
+            </div>
+            <div class="information">
+                <div class="show">
+                    <img src="../../images/menu/4.jpg">
+                </div>
+                <div align="center">
+                    <a href="#" class="col-lg-8"><h4>相煎牛仔骨</h4></a>
+                    <span class="glyphicon glyphicon-thumbs-up col-lg-1"></span>
+                    <span class="glyphicon col-lg-1">12</span>
+                </div>
+            </div>
+            <div class="information">
+                <div class="show">
+                    <img src="../../images/menu/5.jpg">
+                </div>
+                <div align="center">
+                    <a href="#" class="col-lg-8"><h4>西湖牛肉羹</h4></a>
+                    <span class="glyphicon glyphicon-thumbs-up col-lg-1"></span>
+                    <span class="glyphicon col-lg-1">12</span>
+                </div>
+            </div>
+            <div class="information">
+                <div class="show">
+                    <img src="../../images/menu/6.jpg">
+                </div>
+                <div align="center">
+                    <a href="#" class="col-lg-8"><h4>红烧牛肉</h4></a>
+                    <span class="glyphicon glyphicon-thumbs-up col-lg-1"></span>
+                    <span class="glyphicon col-lg-1">12</span>
+                </div>
+            </div>
+            <div class="information">
+                <div class="show">
+                    <img src="../../images/menu/7.jpg">
+                </div>
+                <div align="center">
+                    <a href="#" class="col-lg-8"><h4>南瓜奶酪通心粉</h4></a>
+                    <span class="glyphicon glyphicon-thumbs-up col-lg-1"></span>
+                    <span class="glyphicon col-lg-1">12</span>
+                </div>
+            </div>
+            <div class="information">
+                <div class="show">
+                    <img src="../../images/menu/8.jpg">
+                </div>
+                <div align="center">
+                    <a href="#" class="col-lg-8"><h4>菠菜红豆蛋糕</h4></a>
+                    <span class="glyphicon glyphicon-thumbs-up col-lg-1"></span>
+                    <span class="glyphicon col-lg-1">12</span>
+                </div>
+            </div>
+            <div class="information">
+                <div class="show">
+                    <img src="../../images/menu/9.jpg">
+                </div>
+                <div align="center">
+                    <a href="#" class="col-lg-8"><h4>卤味煲仔饭</h4></a>
+                    <span class="glyphicon glyphicon-thumbs-up col-lg-1"></span>
+                    <span class="glyphicon col-lg-1">12</span>
+                </div>
+            </div>
+            <div class="information">
+                <div class="show">
+                    <img src="../../images/menu/10.jpg">
+                </div>
+                <div align="center">
+                    <a href="#" class="col-lg-8"><h4>香炸鲈鱼丸</h4></a>
+                    <span class="glyphicon glyphicon-thumbs-up col-lg-1"></span>
+                    <span class="glyphicon col-lg-1">12</span>
+                </div>
+            </div>
+            <div class="information">
+                <div class="show">
+                    <img src="../../images/menu/11.jpg">
+                </div>
+                <div align="center">
+                    <a href="#" class="col-lg-8"><h4>肉松芝士排包</h4></a>
+                    <span class="glyphicon glyphicon-thumbs-up col-lg-1"></span>
+                    <span class="glyphicon col-lg-1">12</span>
+                </div>
+            </div>
+            <div class="information">
+                <div class="show">
+                    <img src="../../images/menu/12.jpg">
+                </div>
+                <div align="center">
+                    <a href="#" class="col-lg-8"><h4>三杯鸡腿</h4></a>
+                    <span class="glyphicon glyphicon-thumbs-up col-lg-1"></span>
+                    <span class="glyphicon col-lg-1">12</span>
+                </div>
+            </div>
+        </div>
+        <div align="center" style="margin-bottom: 100px">
+            <button type="button" class="btn btn-default btn-lg btn-block">换一批</button>
+        </div>
+    </div>
+</div>
+<div class="row-2">
+    <div class="row">
+        <div class="col-md-2 col-md-offset-1">
+            <h3>PRODUCE</h3>
+            <p>Business</p>
+            <p>Compare</p>
+            <p>Mobile</p>
+            <p>Download</p>
+        </div>
+        <div class="col-md-2 col-md-offset-1">
+            <h3>COMPANY</h3>
+            <p>About Us</p>
+            <p>Blog</p>
+            <p>News</p>
+            <p>Contact Us</p>
+        </div>
+        <div class="col-md-2 col-md-offset-1">
+            <h3>LEARN MORE</h3>
+            <p>Support</p>
+            <p>Developer</p>
+        </div>
+    </div>
+    <hr/>
+    <h5 align="center">@ &nbsp;食尚网 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2016 - 10 - 24</h5>
+</div>
+</body>
+</html>

@@ -1,0 +1,25 @@
+.logo{
+    width: 60px;
+    height: 50px;
+    border-radius: 10%;
+}
+.name {
+    margin-top: 30px;
+    margin-left: 10%;
+    margin-bottom: 15px;
+}
+
+.head{
+    margin-left: 5px !important;
+    font-size: 300%;
+}
+.headImage img{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+
+.myFriends{
+    margin-top: 20px;
+    margin-bottom: 10px;
+}

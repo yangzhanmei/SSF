@@ -1,0 +1,946 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>食尚坊-健康</title>
+    <link rel="stylesheet" href="http://cdn.bootcss.com/bootstrap/3.3.0/css/bootstrap.min.css">
+    <script src="http://cdn.bootcss.com/jquery/1.11.1/jquery.min.js"></script>
+    <script src="http://cdn.bootcss.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="../../css/health_css/health.css">
+    <link rel="stylesheet" href="../../css/foods_css/footer.css">
+    <link rel="icon" href="../../images/health_images/logo2.jpg">
+</head>
+<body>
+<nav class="navbar navbar-default navbar-inverse " role="navigation">
+    <div class="container-fluid">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+                    data-target="#bs-example-navbar-collapse-1">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#"><strong>食尚坊</strong></a>
+        </div>
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav">
+                <li class="dropdown ">
+                    <a href="../../index.html">首页 </a>
+                </li>
+                <li class="dropdown">
+                    <a href="../menu_html/menu.html">菜谱 </a>
+                </li>
+                <li class="dropdown">
+                    <a href="../../html/foods_html/table.html">食材</a>
+                </li>
+                <li class="dropdown active">
+                    <a href="../../html/health_html/health.html">健康</a>
+                </li>
+                <li class="dropdown ">
+                    <a href="../../html/topic-html/topic.html">话题</a>
+                </li>
+                <li class="dropdown ">
+                    <a href="../my-concern_html/my-concern.html">我关注的</a>
+                </li>
+                <li class="dropdown ">
+                    <a href="../../html/personPage_html/personPage.html">个人中心</a>
+                </li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="#"><span class="glyphicon glyphicon-log-in">注册</span></a>
+                <li><a href="#"><span class="glyphicon glyphicon-user">登录</span></a>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<div class="size">
+    <div class="name row ">
+        <div class="col-sm-1 ">
+            <img src="../../images/health_images/logo3.jpg" style="width: 60px; height: 50px"/>
+        </div>
+        <div class="col-sm-3 head"><strong>食尚坊</strong></div>
+        <div class="col-sm-4 ">
+            <div class="input-group">
+                <input class="form-control" type="text">
+                <div class="input-group-addon "><a href="#">搜索</a></div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div id="carousel-example-generic" class="carousel slide " data-ride="carousel">
+    <ol class="carousel-indicators">
+        <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+        <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+        <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+    </ol>
+
+    <div class="carousel-inner" role="listbox">
+        <div class="item active">
+            <div class="row">
+                <a href="#">
+                    <div class="col-md-4 pic">
+                        <img src="../../images/health_images/3.jpg" class="pic1">
+                        <div class="contentText">
+                            帮宝宝度过补牙期的食谱
+                        </div>
+                    </div>
+                </a>
+                <a href="#">
+                    <div class="col-md-4 pic">
+                        <img src="../../images/health_images/4.jpg" class="pic2">
+                        <div class="contentText">
+                            帮宝宝度过补牙期的食谱
+                        </div>
+                    </div>
+                </a>
+                <a href="#">
+                    <div class="col-md-4 pic">
+                        <img src="../../images/health_images/5.jpg" class="pic3">
+                        <div class="contentText">
+                            帮宝宝度过补牙期的食谱
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </div>
+        <div class="item ">
+            <div class="row">
+                <a href="#">
+                    <div class="col-md-4 pic">
+                        <img src="../../images/health_images/6.jpg" class="pic1">
+                        <div class="contentText">
+                            帮宝宝度过补牙期的食谱
+                        </div>
+                    </div>
+                </a>
+                <a href="#">
+                    <div class="col-md-4 pic">
+                        <img src="../../images/health_images/7.jpg" class="pic2">
+                        <div class="contentText">
+                            帮宝宝度过补牙期的食谱
+                        </div>
+                    </div>
+                </a>
+                <a href="#">
+                    <div class="col-md-4 pic">
+                        <img src="../../images/health_images/8.jpg" class="pic3">
+                        <div class="contentText">
+                            帮宝宝度过补牙期的食谱
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+    <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left"></span>
+        <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+        <span class="glyphicon glyphicon-chevron-right"></span>
+        <span class="sr-only">Next</span>
+    </a>
+</div>
+
+<div class="size">
+    <!-- Nav tabs -->
+    <ul class="nav nav-tabs tag" role="tablist">
+        <li role="presentation" class="active"><a href="#home" role="tab" data-toggle="tab">最新推荐</a></li>
+        <li role="presentation"><a href="#release" role="tab" data-toggle="tab">最新发布</a></li>
+        <li role="presentation"><a href="#diet" role="tab" data-toggle="tab">饮食常识</a></li>
+        <li role="presentation"><a href="#slimBeauty" role="tab" data-toggle="tab">瘦身美容</a></li>
+        <li role="presentation"><a href="#montherBaby" role="tab" data-toggle="tab">母婴饮食</a></li>
+        <li role="presentation"><a href="#foodTreat" role="tab" data-toggle="tab">食疗食补</a></li>
+    </ul>
+
+    <!-- Tab panes -->
+    <div class="tab-content">
+        <div role="tabpanel" class="tab-pane active" id="home">
+            <div class="row size">
+                <div class="details container col-md-8">
+                    <div class="row">
+                        <div class="col-md-2">
+                            <img src="../../images/health_images/9.jpg" class="pics">
+                        </div>
+                        <div class="introduction col-md-6">
+                            <a href="./details.html" class="title">五种你不能错过的高血压食疗法</a><br/>
+                            <div class="content">
+                                4小时<br/>
+                                秋天将到了，天气越来越干燥，宝宝体内容易产生火气
+                                神经系统也容易紊乱，宝宝的情绪也容易跟着变得躁动不安，
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-2">
+                            <img src="../../images/health_images/10.jpg" class="pics">
+                        </div>
+                        <div class="introduction col-md-6">
+                            <a href="./details.html" class="title">五种你不能错过的高血压食疗法</a><br/>
+                            <div class="content">
+                                4小时<br/>
+                                秋天将到了，天气越来越干燥，宝宝体内容易产生火气，小便少，
+                                神经系统也容易紊乱，宝宝的情绪也容易跟着变得躁动不安，
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-2">
+                            <img src="../../images/health_images/11.jpg" class="pics">
+                        </div>
+                        <div class="introduction col-md-6">
+                            <a href="./details.html" class="title">五种你不能错过的高血压食疗法</a><br/>
+                            <div class="content">
+                                4小时<br/>
+                                秋天将到了，天气越来越干燥，宝宝体内容易产生火气，小便少，
+                                神经系统也容易紊乱，宝宝的情绪也容易跟着变得躁动不安，
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-2">
+                            <img src="../../images/health_images/12.jpg" class="pics">
+                        </div>
+                        <div class="introduction col-md-6">
+                            <a href="./details.html" class="title">五种你不能错过的高血压食疗法</a><br/>
+                            <div class="content">
+                                4小时<br/>
+                                秋天将到了，天气越来越干燥，宝宝体内容易产生火气，小便少，
+                                神经系统也容易紊乱，宝宝的情绪也容易跟着变得躁动不安，
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-2">
+                            <img src="../../images/health_images/13.jpg" class="pics">
+                        </div>
+                        <div class="introduction col-md-6">
+                            <a href="./details.html" class="title">五种你不能错过的高血压食疗法</a><br/>
+                            <div class="content">
+                                4小时<br/>
+                                秋天将到了，天气越来越干燥，宝宝体内容易产生火气，小便少，
+                                神经系统也容易紊乱，宝宝的情绪也容易跟着变得躁动不安，
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-2">
+                            <img src="../../images/health_images/14.jpg" class="pics">
+                        </div>
+                        <div class="introduction col-md-6">
+                            <a href="./details.html" class="title">五种你不能错过的高血压食疗法</a><br/>
+                            <div class="content">
+                                4小时<br/>
+                                秋天将到了，天气越来越干燥，宝宝体内容易产生火气，小便少，
+                                神经系统也容易紊乱，宝宝的情绪也容易跟着变得躁动不安，
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-9">
+                        <nav>
+                            <ul class="pagination" style="margin-left: 200px; margin-top: 25px">
+                                <li><a href="#">&laquo;</a></li>
+                                <li><a href="#">1</a></li>
+                                <li><a href="#">2</a></li>
+                                <li><a href="#">3</a></li>
+                                <li><a href="#">4</a></li>
+                                <li><a href="#">5</a></li>
+                                <li><a href="#">&raquo;</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+                <div class="popular col-md-3">
+                    <ul class="nav nav-tabs" role="tablist">
+                        <li role="presentation" class="active options"><a href="#">一周热门排行</a></li>
+                    </ul>
+                    <div class="row">
+                        <div class="col-md-4">
+                            <img src="../../images/health_images/3.jpg" class="week">
+                        </div>
+                        <div class="weekInfo col-md-8">
+                            <a href="./popularDetails.html" class="">天寒吃饺子的四款食疗功效</a><br/>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-4">
+                            <img src="../../images/health_images/6.jpg" class="week">
+                        </div>
+                        <div class="weekInfo col-md-8">
+                            <a href="./popularDetails.html" class="">天寒吃饺子的四款食疗功效</a><br/>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-4">
+                            <img src="../../images/health_images/15.jpg" class="week">
+                        </div>
+                        <div class="weekInfo col-md-8">
+                            <a href="./popularDetails.html" class="">天寒吃饺子的四款食疗功效</a><br/>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div role="tabpanel" class="tab-pane" id="release">
+            <div class="row size">
+                <div class="details container col-md-8">
+                    <div class="row">
+                        <div class="col-md-2">
+                            <img src="../../images/health_images/8.jpg" class="pics">
+                        </div>
+                        <div class="introduction col-md-6">
+                            <a href="./details.html" class="title">五种你不能错过的高血压食疗法</a><br/>
+                            <div class="content">
+                                4小时<br/>
+                                秋天将到了，天气越来越干燥，宝宝体内容易产生火气
+                                神经系统也容易紊乱，宝宝的情绪也容易跟着变得躁动不安，
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-2">
+                            <img src="../../images/health_images/8.jpg" class="pics">
+                        </div>
+                        <div class="introduction col-md-6">
+                            <a href="./details.html" class="title">五种你不能错过的高血压食疗法</a><br/>
+                            <div class="content">
+                                4小时<br/>
+                                秋天将到了，天气越来越干燥，宝宝体内容易产生火气，小便少，
+                                神经系统也容易紊乱，宝宝的情绪也容易跟着变得躁动不安，
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-2">
+                            <img src="../../images/health_images/8.jpg" class="pics">
+                        </div>
+                        <div class="introduction col-md-6">
+                            <a href="./details.html" class="title">五种你不能错过的高血压食疗法</a><br/>
+                            <div class="content">
+                                4小时<br/>
+                                秋天将到了，天气越来越干燥，宝宝体内容易产生火气，小便少，
+                                神经系统也容易紊乱，宝宝的情绪也容易跟着变得躁动不安，
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-2">
+                            <img src="../../images/health_images/8.jpg" class="pics">
+                        </div>
+                        <div class="introduction col-md-6">
+                            <a href="./details.html" class="title">五种你不能错过的高血压食疗法</a><br/>
+                            <div class="content">
+                                4小时<br/>
+                                秋天将到了，天气越来越干燥，宝宝体内容易产生火气，小便少，
+                                神经系统也容易紊乱，宝宝的情绪也容易跟着变得躁动不安，
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-2">
+                            <img src="../../images/health_images/8.jpg" class="pics">
+                        </div>
+                        <div class="introduction col-md-6">
+                            <a href="./details.html" class="title">五种你不能错过的高血压食疗法</a><br/>
+                            <div class="content">
+                                4小时<br/>
+                                秋天将到了，天气越来越干燥，宝宝体内容易产生火气，小便少，
+                                神经系统也容易紊乱，宝宝的情绪也容易跟着变得躁动不安，
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-2">
+                            <img src="../../images/health_images/8.jpg" class="pics">
+                        </div>
+                        <div class="introduction col-md-6">
+                            <a href="./details.html" class="title">五种你不能错过的高血压食疗法</a><br/>
+                            <div class="content">
+                                4小时<br/>
+                                秋天将到了，天气越来越干燥，宝宝体内容易产生火气，小便少，
+                                神经系统也容易紊乱，宝宝的情绪也容易跟着变得躁动不安，
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-9">
+                        <nav>
+                            <ul class="pagination" style="margin-left: 200px; margin-top: 25px">
+                                <li><a href="#">&laquo;</a></li>
+                                <li><a href="#">1</a></li>
+                                <li><a href="#">2</a></li>
+                                <li><a href="#">3</a></li>
+                                <li><a href="#">4</a></li>
+                                <li><a href="#">5</a></li>
+                                <li><a href="#">&raquo;</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+                <div class="popular col-md-3">
+                    <ul class="nav nav-tabs" role="tablist">
+                        <li role="presentation" class="active options"><a href="#">一周热门排行</a></li>
+                    </ul>
+                    <div class="row">
+                        <div class="col-md-4">
+                            <img src="../../images/health_images/14.jpg" class="week">
+                        </div>
+                        <div class="weekInfo col-md-8">
+                            <a href="./popularDetails.html" class="">天寒吃饺子的四款食疗功效</a><br/>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-4">
+                            <img src="../../images/health_images/14.jpg" class="week">
+                        </div>
+                        <div class="weekInfo col-md-8">
+                            <a href="./popularDetails.html" class="">天寒吃饺子的四款食疗功效</a><br/>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-4">
+                            <img src="../../images/health_images/14.jpg" class="week">
+                        </div>
+                        <div class="weekInfo col-md-8">
+                            <a href="./popularDetails.html" class="">天寒吃饺子的四款食疗功效</a><br/>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div role="tabpanel" class="tab-pane" id="diet">
+            <div class="row size">
+                <div class="details container col-md-8">
+                    <div class="row">
+                        <div class="col-md-2">
+                            <img src="../../images/health_images/9.jpg" class="pics">
+                        </div>
+                        <div class="introduction col-md-6">
+                            <a href="./details.html" class="title">五种你不能错过的高血压食疗法</a><br/>
+                            <div class="content">
+                                4小时<br/>
+                                秋天将到了，天气越来越干燥，宝宝体内容易产生火气
+                                神经系统也容易紊乱，宝宝的情绪也容易跟着变得躁动不安，
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-2">
+                            <img src="../../images/health_images/9.jpg" class="pics">
+                        </div>
+                        <div class="introduction col-md-6">
+                            <a href="./details.html" class="title">五种你不能错过的高血压食疗法</a><br/>
+                            <div class="content">
+                                4小时<br/>
+                                秋天将到了，天气越来越干燥，宝宝体内容易产生火气，小便少，
+                                神经系统也容易紊乱，宝宝的情绪也容易跟着变得躁动不安，
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-2">
+                            <img src="../../images/health_images/9.jpg" class="pics">
+                        </div>
+                        <div class="introduction col-md-6">
+                            <a href="./details.html" class="title">五种你不能错过的高血压食疗法</a><br/>
+                            <div class="content">
+                                4小时<br/>
+                                秋天将到了，天气越来越干燥，宝宝体内容易产生火气，小便少，
+                                神经系统也容易紊乱，宝宝的情绪也容易跟着变得躁动不安，
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-2">
+                            <img src="../../images/health_images/9.jpg" class="pics">
+                        </div>
+                        <div class="introduction col-md-6">
+                            <a href="./details.html" class="title">五种你不能错过的高血压食疗法</a><br/>
+                            <div class="content">
+                                4小时<br/>
+                                秋天将到了，天气越来越干燥，宝宝体内容易产生火气，小便少，
+                                神经系统也容易紊乱，宝宝的情绪也容易跟着变得躁动不安，
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-2">
+                            <img src="../../images/health_images/9.jpg" class="pics">
+                        </div>
+                        <div class="introduction col-md-6">
+                            <a href="./details.html" class="title">五种你不能错过的高血压食疗法</a><br/>
+                            <div class="content">
+                                4小时<br/>
+                                秋天将到了，天气越来越干燥，宝宝体内容易产生火气，小便少，
+                                神经系统也容易紊乱，宝宝的情绪也容易跟着变得躁动不安，
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-2">
+                            <img src="../../images/health_images/9.jpg" class="pics">
+                        </div>
+                        <div class="introduction col-md-6">
+                            <a href="./details.html" class="title">五种你不能错过的高血压食疗法</a><br/>
+                            <div class="content">
+                                4小时<br/>
+                                秋天将到了，天气越来越干燥，宝宝体内容易产生火气，小便少，
+                                神经系统也容易紊乱，宝宝的情绪也容易跟着变得躁动不安，
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-9">
+                        <nav>
+                            <ul class="pagination" style="margin-left: 200px; margin-top: 25px">
+                                <li><a href="#">&laquo;</a></li>
+                                <li><a href="#">1</a></li>
+                                <li><a href="#">2</a></li>
+                                <li><a href="#">3</a></li>
+                                <li><a href="#">4</a></li>
+                                <li><a href="#">5</a></li>
+                                <li><a href="#">&raquo;</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+                <div class="popular col-md-3">
+                    <ul class="nav nav-tabs" role="tablist">
+                        <li role="presentation" class="active options"><a href="#">一周热门排行</a></li>
+                    </ul>
+                    <div class="row">
+                        <div class="col-md-4">
+                            <img src="../../images/health_images/14.jpg" class="week">
+                        </div>
+                        <div class="weekInfo col-md-8">
+                            <a href="./popularDetails.html" class="">天寒吃饺子的四款食疗功效</a><br/>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-4">
+                            <img src="../../images/health_images/14.jpg" class="week">
+                        </div>
+                        <div class="weekInfo col-md-8">
+                            <a href="./popularDetails.html" class="">天寒吃饺子的四款食疗功效</a><br/>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-4">
+                            <img src="../../images/health_images/14.jpg" class="week">
+                        </div>
+                        <div class="weekInfo col-md-8">
+                            <a href="./popularDetails.html" class="">天寒吃饺子的四款食疗功效</a><br/>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div role="tabpanel" class="tab-pane" id="slimBeauty">
+            <div class="row size">
+                <div class="details container col-md-8">
+                    <div class="row">
+                        <div class="col-md-2">
+                            <img src="../../images/health_images/14.jpg" class="pics">
+                        </div>
+                        <div class="introduction col-md-6">
+                            <a href="./details.html" class="title">五种你不能错过的高血压食疗法</a><br/>
+                            <div class="content">
+                                4小时<br/>
+                                秋天将到了，天气越来越干燥，宝宝体内容易产生火气
+                                神经系统也容易紊乱，宝宝的情绪也容易跟着变得躁动不安，
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-2">
+                            <img src="../../images/health_images/14.jpg" class="pics">
+                        </div>
+                        <div class="introduction col-md-6">
+                            <a href="./details.html" class="title">五种你不能错过的高血压食疗法</a><br/>
+                            <div class="content">
+                                4小时<br/>
+                                秋天将到了，天气越来越干燥，宝宝体内容易产生火气，小便少，
+                                神经系统也容易紊乱，宝宝的情绪也容易跟着变得躁动不安，
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-2">
+                            <img src="../../images/health_images/14.jpg" class="pics">
+                        </div>
+                        <div class="introduction col-md-6">
+                            <a href="./details.html" class="title">五种你不能错过的高血压食疗法</a><br/>
+                            <div class="content">
+                                4小时<br/>
+                                秋天将到了，天气越来越干燥，宝宝体内容易产生火气，小便少，
+                                神经系统也容易紊乱，宝宝的情绪也容易跟着变得躁动不安，
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-2">
+                            <img src="../../images/health_images/14.jpg" class="pics">
+                        </div>
+                        <div class="introduction col-md-6">
+                            <a href="./details.html" class="title">五种你不能错过的高血压食疗法</a><br/>
+                            <div class="content">
+                                4小时<br/>
+                                秋天将到了，天气越来越干燥，宝宝体内容易产生火气，小便少，
+                                神经系统也容易紊乱，宝宝的情绪也容易跟着变得躁动不安，
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-2">
+                            <img src="../../images/health_images/14.jpg" class="pics">
+                        </div>
+                        <div class="introduction col-md-6">
+                            <a href="./details.html" class="title">五种你不能错过的高血压食疗法</a><br/>
+                            <div class="content">
+                                4小时<br/>
+                                秋天将到了，天气越来越干燥，宝宝体内容易产生火气，小便少，
+                                神经系统也容易紊乱，宝宝的情绪也容易跟着变得躁动不安，
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-2">
+                            <img src="../../images/health_images/14.jpg" class="pics">
+                        </div>
+                        <div class="introduction col-md-6">
+                            <a href="./details.html" class="title">五种你不能错过的高血压食疗法</a><br/>
+                            <div class="content">
+                                4小时<br/>
+                                秋天将到了，天气越来越干燥，宝宝体内容易产生火气，小便少，
+                                神经系统也容易紊乱，宝宝的情绪也容易跟着变得躁动不安，
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-9">
+                        <nav>
+                            <ul class="pagination" style="margin-left: 200px; margin-top: 25px">
+                                <li><a href="#">&laquo;</a></li>
+                                <li><a href="#">1</a></li>
+                                <li><a href="#">2</a></li>
+                                <li><a href="#">3</a></li>
+                                <li><a href="#">4</a></li>
+                                <li><a href="#">5</a></li>
+                                <li><a href="#">&raquo;</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+                <div class="popular col-md-3">
+                    <ul class="nav nav-tabs" role="tablist">
+                        <li role="presentation" class="active options"><a href="#">一周热门排行</a></li>
+                    </ul>
+                    <div class="row">
+                        <div class="col-md-4">
+                            <img src="../../images/health_images/14.jpg" class="week">
+                        </div>
+                        <div class="weekInfo col-md-8">
+                            <a href="./popularDetails.html" class="">天寒吃饺子的四款食疗功效</a><br/>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-4">
+                            <img src="../../images/health_images/14.jpg" class="week">
+                        </div>
+                        <div class="weekInfo col-md-8">
+                            <a href="./popularDetails.html" class="">天寒吃饺子的四款食疗功效</a><br/>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-4">
+                            <img src="../../images/health_images/14.jpg" class="week">
+                        </div>
+                        <div class="weekInfo col-md-8">
+                            <a href="./popularDetails.html" class="">天寒吃饺子的四款食疗功效</a><br/>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div role="tabpanel" class="tab-pane" id="montherBaby">
+            <div class="row size">
+                <div class="details container col-md-8">
+                    <div class="row">
+                        <div class="col-md-2">
+                            <img src="../../images/health_images/14.jpg" class="pics">
+                        </div>
+                        <div class="introduction col-md-6">
+                            <a href="./details.html" class="title">五种你不能错过的高血压食疗法</a><br/>
+                            <div class="content">
+                                4小时<br/>
+                                秋天将到了，天气越来越干燥，宝宝体内容易产生火气
+                                神经系统也容易紊乱，宝宝的情绪也容易跟着变得躁动不安，
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-2">
+                            <img src="../../images/health_images/14.jpg" class="pics">
+                        </div>
+                        <div class="introduction col-md-6">
+                            <a href="./details.html" class="title">五种你不能错过的高血压食疗法</a><br/>
+                            <div class="content">
+                                4小时<br/>
+                                秋天将到了，天气越来越干燥，宝宝体内容易产生火气，小便少，
+                                神经系统也容易紊乱，宝宝的情绪也容易跟着变得躁动不安，
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-2">
+                            <img src="../../images/health_images/14.jpg" class="pics">
+                        </div>
+                        <div class="introduction col-md-6">
+                            <a href="./details.html" class="title">五种你不能错过的高血压食疗法</a><br/>
+                            <div class="content">
+                                4小时<br/>
+                                秋天将到了，天气越来越干燥，宝宝体内容易产生火气，小便少，
+                                神经系统也容易紊乱，宝宝的情绪也容易跟着变得躁动不安，
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-2">
+                            <img src="../../images/health_images/14.jpg" class="pics">
+                        </div>
+                        <div class="introduction col-md-6">
+                            <a href="./details.html" class="title">五种你不能错过的高血压食疗法</a><br/>
+                            <div class="content">
+                                4小时<br/>
+                                秋天将到了，天气越来越干燥，宝宝体内容易产生火气，小便少，
+                                神经系统也容易紊乱，宝宝的情绪也容易跟着变得躁动不安，
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-2">
+                            <img src="../../images/health_images/14.jpg" class="pics">
+                        </div>
+                        <div class="introduction col-md-6">
+                            <a href="v" class="title">五种你不能错过的高血压食疗法</a><br/>
+                            <div class="content">
+                                4小时<br/>
+                                秋天将到了，天气越来越干燥，宝宝体内容易产生火气，小便少，
+                                神经系统也容易紊乱，宝宝的情绪也容易跟着变得躁动不安，
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-2">
+                            <img src="../../images/health_images/14.jpg" class="pics">
+                        </div>
+                        <div class="introduction col-md-6">
+                            <a href="./details.html" class="title">五种你不能错过的高血压食疗法</a><br/>
+                            <div class="content">
+                                4小时<br/>
+                                秋天将到了，天气越来越干燥，宝宝体内容易产生火气，小便少，
+                                神经系统也容易紊乱，宝宝的情绪也容易跟着变得躁动不安，
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-9">
+                        <nav>
+                            <ul class="pagination" style="margin-left: 200px; margin-top: 25px">
+                                <li><a href="#">&laquo;</a></li>
+                                <li><a href="#">1</a></li>
+                                <li><a href="#">2</a></li>
+                                <li><a href="#">3</a></li>
+                                <li><a href="#">4</a></li>
+                                <li><a href="#">5</a></li>
+                                <li><a href="#">&raquo;</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+                <div class="popular col-md-3">
+                    <ul class="nav nav-tabs" role="tablist">
+                        <li role="presentation" class="active options"><a href="#">一周热门排行</a></li>
+                    </ul>
+                    <div class="row">
+                        <div class="col-md-4">
+                            <img src="../../images/health_images/14.jpg" class="week">
+                        </div>
+                        <div class="weekInfo col-md-8">
+                            <a href="./popularDetails.html" class="">天寒吃饺子的四款食疗功效</a><br/>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-4">
+                            <img src="../../images/health_images/14.jpg" class="week">
+                        </div>
+                        <div class="weekInfo col-md-8">
+                            <a href="./popularDetails.html" class="">天寒吃饺子的四款食疗功效</a><br/>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-4">
+                            <img src="../../images/health_images/14.jpg" class="week">
+                        </div>
+                        <div class="weekInfo col-md-8">
+                            <a href="./popularDetails.html" class="">天寒吃饺子的四款食疗功效</a><br/>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div role="tabpanel" class="tab-pane" id="foodTreat">
+            <div class="row size">
+                <div class="details container col-md-8">
+                    <div class="row">
+                        <div class="col-md-2">
+                            <img src="../../images/health_images/14.jpg" class="pics">
+                        </div>
+                        <div class="introduction col-md-6">
+                            <a href="./details.html" class="title">五种你不能错过的高血压食疗法</a><br/>
+                            <div class="content">
+                                4小时<br/>
+                                秋天将到了，天气越来越干燥，宝宝体内容易产生火气
+                                神经系统也容易紊乱，宝宝的情绪也容易跟着变得躁动不安，
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-2">
+                            <img src="../../images/health_images/14.jpg" class="pics">
+                        </div>
+                        <div class="introduction col-md-6">
+                            <a href="./details.html" class="title">五种你不能错过的高血压食疗法</a><br/>
+                            <div class="content">
+                                4小时<br/>
+                                秋天将到了，天气越来越干燥，宝宝体内容易产生火气，小便少，
+                                神经系统也容易紊乱，宝宝的情绪也容易跟着变得躁动不安，
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-2">
+                            <img src="../../images/health_images/14.jpg" class="pics">
+                        </div>
+                        <div class="introduction col-md-6">
+                            <a href="./details.html" class="title">五种你不能错过的高血压食疗法</a><br/>
+                            <div class="content">
+                                4小时<br/>
+                                秋天将到了，天气越来越干燥，宝宝体内容易产生火气，小便少，
+                                神经系统也容易紊乱，宝宝的情绪也容易跟着变得躁动不安，
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-2">
+                            <img src="../../images/health_images/14.jpg" class="pics">
+                        </div>
+                        <div class="introduction col-md-6">
+                            <a href="./details.html" class="title">五种你不能错过的高血压食疗法</a><br/>
+                            <div class="content">
+                                4小时<br/>
+                                秋天将到了，天气越来越干燥，宝宝体内容易产生火气，小便少，
+                                神经系统也容易紊乱，宝宝的情绪也容易跟着变得躁动不安，
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-2">
+                            <img src="../../images/health_images/14.jpg" class="pics">
+                        </div>
+                        <div class="introduction col-md-6">
+                            <a href="./details.html" class="title">五种你不能错过的高血压食疗法</a><br/>
+                            <div class="content">
+                                4小时<br/>
+                                秋天将到了，天气越来越干燥，宝宝体内容易产生火气，小便少，
+                                神经系统也容易紊乱，宝宝的情绪也容易跟着变得躁动不安，
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-2">
+                            <img src="../../images/health_images/14.jpg" class="pics">
+                        </div>
+                        <div class="introduction col-md-6">
+                            <a href="./details.html" class="title">五种你不能错过的高血压食疗法</a><br/>
+                            <div class="content">
+                                4小时<br/>
+                                秋天将到了，天气越来越干燥，宝宝体内容易产生火气，小便少，
+                                神经系统也容易紊乱，宝宝的情绪也容易跟着变得躁动不安，
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-9">
+                        <nav>
+                            <ul class="pagination" style="margin-left: 200px; margin-top: 25px">
+                                <li><a href="#">&laquo;</a></li>
+                                <li><a href="#">1</a></li>
+                                <li><a href="#">2</a></li>
+                                <li><a href="#">3</a></li>
+                                <li><a href="#">4</a></li>
+                                <li><a href="#">5</a></li>
+                                <li><a href="#">&raquo;</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+                <div class="popular col-md-3">
+                    <ul class="nav nav-tabs" role="tablist">
+                        <li role="presentation" class="active options"><a href="#">一周热门排行</a></li>
+                    </ul>
+                    <div class="row">
+                        <div class="col-md-4">
+                            <img src="../../images/health_images/14.jpg" class="week">
+                        </div>
+                        <div class="weekInfo col-md-8">
+                            <a href="./popularDetails.html" class="">天寒吃饺子的四款食疗功效</a><br/>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-4">
+                            <img src="../../images/health_images/14.jpg" class="week">
+                        </div>
+                        <div class="weekInfo col-md-8">
+                            <a href="./popularDetails.html" class="">天寒吃饺子的四款食疗功效</a><br/>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-4">
+                            <img src="../../images/health_images/14.jpg" class="week">
+                        </div>
+                        <div class="weekInfo col-md-8">
+                            <a href="./popularDetails.html" class="">天寒吃饺子的四款食疗功效</a><br/>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="row-2">
+    <div class="row">
+        <div class="col-md-2 col-md-offset-1">
+            <h3>PRODUCE</h3>
+            <p>Business</p>
+            <p>Compare</p>
+            <p>Mobile</p>
+            <p>Download</p>
+        </div>
+        <div class="col-md-2 col-md-offset-1">
+            <h3>COMPANY</h3>
+            <p>About Us</p>
+            <p>Blog</p>
+            <p>News</p>
+            <p>Contact Us</p>
+        </div>
+        <div class="col-md-2 col-md-offset-1">
+            <h3>LEARN MORE</h3>
+            <p>Support</p>
+            <p>Developer</p>
+        </div>
+    </div>
+    <hr/>
+    <h5 align="center">@ &nbsp;食尚网 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2016 - 10 - 24</h5>
+</div>
+
+</body>
+</html>
